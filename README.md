@@ -1,4 +1,4 @@
-### Technical Writing – Semester Documentation
+# Technical Writing – Semester Documentation
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-##### About This Repository
+## About This Repository
 
 
 
@@ -22,7 +22,7 @@ The purpose of this repository is to represent what I have learn in 22CSP210 Tec
 
 
 
-##### Topics Covered
+## Topics Covered
 
 
 
@@ -35,7 +35,7 @@ The purpose of this repository is to represent what I have learn in 22CSP210 Tec
 
 
 
-##### Repository Structure
+## Repository Structure
 
 
 
@@ -49,7 +49,7 @@ The purpose of this repository is to represent what I have learn in 22CSP210 Tec
 
 
 
-##### Learning Objectives
+## Learning Objectives
 
 
 
@@ -62,7 +62,7 @@ The purpose of this repository is to represent what I have learn in 22CSP210 Tec
 
 
 
-##### Conclusion
+## Conclusion
 
 
 
