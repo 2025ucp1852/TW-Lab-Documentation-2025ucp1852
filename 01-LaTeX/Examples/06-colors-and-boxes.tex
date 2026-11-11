@@ -1,0 +1,87 @@
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{xcolor}
+
+\title{Colors and Boxes in LaTeX}
+\author{Vikram Mehra}
+\date{\today}
+
+% Define custom colors
+\definecolor{myblue}{RGB}{0,70,150}
+\definecolor{mygreen}{RGB}{0,130,70}
+\definecolor{lightyellow}{RGB}{255,245,180}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+LaTeX supports colored text, backgrounds, borders,
+and customized boxes using the xcolor package.
+
+\section{Changing Text Color}
+
+The textcolor command changes the color of selected text.
+
+\textcolor{red}{This is red text.}
+
+\textcolor{blue}{This is blue text.}
+
+\textcolor{mygreen}{This is custom green text.}
+
+\section{Defining Custom Colors}
+
+The definecolor command creates a new color.
+
+\textcolor{myblue}{This text uses a custom blue color.}
+
+\textcolor{mygreen}{This text uses a custom green color.}
+
+\section{Creating a Colored Background}
+
+The colorbox command places a colored background
+behind text.
+
+\colorbox{yellow}{Text with a yellow background.}
+
+\bigskip
+
+\colorbox{lightyellow}{Text with a custom background.}
+
+\section{Creating a Colored Border}
+
+The fcolorbox command creates a box with a colored
+border and background.
+
+\bigskip
+
+\fcolorbox{blue}{yellow}{LaTeX Colored Box}
+
+\bigskip
+
+\fcolorbox{myblue}{lightyellow}{
+    \parbox{0.7\textwidth}{
+        This is a customized box containing multiple
+        lines of text. It demonstrates how LaTeX can
+        combine colored borders and backgrounds.
+    }
+}
+
+\section{Changing the Text Color of a Section}
+
+{\color{myblue}
+This complete paragraph is displayed in custom blue.
+The color declaration remains active within its braces.
+}
+
+\section{Conclusion}
+
+The xcolor package provides useful commands for
+customizing documents with text colors, background
+colors, and colored boxes.
+
+\end{document}

@@ -1,0 +1,125 @@
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{array}
+
+\title{Tables and Figures in LaTeX}
+\author{Vikram Mehra}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+LaTeX provides environments for creating professional
+tables and inserting figures into documents.
+
+The tabular environment is used to arrange information
+in rows and columns. The graphicx package is used to
+insert external images.
+
+\section{Creating a Basic Table}
+
+The following table demonstrates column alignment
+and horizontal borders.
+
+\begin{center}
+\begin{tabular}{|c|l|c|}
+\hline
+Roll Number & Student Name & Marks \\
+\hline
+101 & Student A & 85 \\
+102 & Student B & 90 \\
+103 & Student C & 88 \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Table with Caption and Label}
+
+Tables can be placed inside the table environment.
+The caption describes the table, while the label
+allows us to refer to it elsewhere.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|l|c|}
+\hline
+Subject & Description & Marks \\
+\hline
+Mathematics & Algebra and Calculus & 90 \\
+Physics & Mechanics and Optics & 85 \\
+Computer Science & Programming & 95 \\
+\hline
+\end{tabular}
+\caption{Example of student subject marks}
+\label{tab:marks}
+\end{table}
+
+As shown in Table~\ref{tab:marks}, LaTeX can
+automatically number tables and create references.
+
+\section{Combining Table Columns}
+
+The multicolumn command combines multiple columns.
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{Student Information} \\
+\hline
+Roll Number & Name & Grade \\
+\hline
+101 & Student A & A \\
+102 & Student B & B \\
+\hline
+\end{tabular}
+\caption{Table using the multicolumn command}
+\label{tab:multicolumn}
+\end{table}
+
+\section{Inserting a Figure}
+
+The figure environment is used to insert and manage
+images in a document.
+
+The following box is a placeholder for an image.
+
+\begin{figure}[htbp]
+\centering
+\fbox{\rule{0pt}{4cm}\rule{0.75\linewidth}{0pt}}
+\caption{Placeholder for an example figure}
+\label{fig:placeholder}
+\end{figure}
+
+Figure~\ref{fig:placeholder} demonstrates how to
+add a caption and reference to a figure.
+
+\section{Using the Includegraphics Command}
+
+To insert an actual image, first place an image file
+named sample-image.png in the same folder as this
+source file.
+
+Then replace the placeholder figure above with:
+
+% \begin{figure}[htbp]
+% \centering
+% \includegraphics[width=0.7\textwidth]{sample-image.png}
+% \caption{Example of an inserted image}
+% \label{fig:sample}
+% \end{figure}
+
+\section{Conclusion}
+
+This program demonstrates tables, column alignment,
+captions, labels, references, and figure insertion
+using LaTeX.
+
+\end{document}

@@ -1,0 +1,196 @@
+
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Mathematical Expressions, Arrays and Matrices}
+\author{Vikram Mehra}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+LaTeX provides powerful mathematical typesetting features.
+It is commonly used for scientific documents, engineering
+reports, research papers, and mathematical publications.
+
+The amsmath package provides additional environments
+and commands for writing mathematical expressions.
+
+\section{Inline and Display Mathematics}
+
+An inline expression appears within a sentence, such as
+$a^2+b^2=c^2$.
+
+A displayed expression appears on a separate line:
+
+\[
+a^2+b^2=c^2
+\]
+
+\section{Fractions and Square Roots}
+
+A fraction can be written using the \texttt{\textbackslash frac}
+command:
+
+\[
+\frac{a+b}{c+d}
+\]
+
+A square root can be written using \texttt{\textbackslash sqrt}:
+
+\[
+\sqrt{x^2+y^2}
+\]
+
+\section{Subscripts and Superscripts}
+
+Subscripts are created using the underscore symbol.
+
+\[
+x_1,\quad x_2,\quad x_{10}
+\]
+
+Superscripts are created using the caret symbol.
+
+\[
+x^2,\quad x^3,\quad x^{10}
+\]
+
+Both can be combined:
+
+\[
+x_1^2+x_2^2
+\]
+
+\section{Greek Letters and Mathematical Symbols}
+
+Some commonly used Greek letters are:
+
+\[
+\alpha,\ \beta,\ \gamma,\ \delta,\ \theta,\ \lambda,\ \pi
+\]
+
+Other mathematical symbols include:
+
+\[
+a \leq b,\quad a \geq b,\quad a \neq b
+\]
+
+\[
+a \approx b,\quad a \times b,\quad a \pm b
+\]
+
+\section{Summation, Product and Integration}
+
+Summation:
+
+\[
+\sum_{i=1}^{n} i
+\]
+
+Product:
+
+\[
+\prod_{i=1}^{n} i
+\]
+
+Integration:
+
+\[
+\int_0^1 x^2\,dx
+\]
+
+Limit:
+
+\[
+\lim_{x\to 0}\frac{\sin x}{x}=1
+\]
+
+\section{Numbered Equations}
+
+The equation environment automatically numbers an equation.
+
+\begin{equation}
+E=mc^2
+\end{equation}
+
+\begin{equation}
+a^2+b^2=c^2
+\end{equation}
+
+\section{Aligned Equations}
+
+The align environment aligns multiple equations at
+the ampersand symbol.
+
+\begin{align}
+x+y &= 10 \\
+x-y &= 2
+\end{align}
+
+\section{Arrays}
+
+The array environment arranges mathematical elements
+in rows and columns.
+
+\[
+\begin{array}{c|c|c}
+A & B & C \\
+\hline
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{array}
+\]
+
+\section{Matrices}
+
+A simple matrix:
+
+\[
+\begin{matrix}
+1 & 2 \\
+3 & 4
+\end{matrix}
+\]
+
+A matrix with parentheses:
+
+\[
+\begin{pmatrix}
+1 & 2 \\
+3 & 4
+\end{pmatrix}
+\]
+
+A matrix with square brackets:
+
+\[
+\begin{bmatrix}
+1 & 2 \\
+3 & 4
+\end{bmatrix}
+\]
+
+A determinant-style matrix:
+
+\[
+\begin{vmatrix}
+1 & 2 \\
+3 & 4
+\end{vmatrix}
+\]
+
+\section{Conclusion}
+
+This program demonstrates mathematical expressions,
+fractions, roots, Greek letters, summations, equations,
+arrays, and different matrix environments in LaTeX.
+
+\end{document}
