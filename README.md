@@ -1,89 +1,70 @@
-# 1. Introduction to LaTeX and Document Structure
+### Technical Writing – Semester Documentation
 
-## 1.1 What is LaTeX?
 
-LaTeX is a document preparation system used to create professional and well-formatted documents. It is especially useful for academic writing, research papers, technical reports, books, and mathematical documents.
 
-Unlike ordinary word processors, LaTeX uses commands to control the structure and appearance of a document.
+**Student ID**: 2025UCP1852  
 
-## 1.2 Features of LaTeX
+**Course**: 22CSP210 Technical Writing 2026  
 
-- Produces professional-quality documents.
-- Supports mathematical equations and symbols.
-- Automatically numbers sections, figures, tables, and equations.
-- Provides references and citations.
-- Supports large documents such as books and research papers.
-- Separates document content from formatting.
+**Academic Year**: 2026
 
-## 1.3 Basic Structure of a LaTeX Document
 
-A basic LaTeX document contains three main parts:
 
-1. Document class declaration
-2. Preamble
-3. Document body
+##### About This Repository
 
-### Example
 
-```latex
-\documentclass[a4paper,12pt]{article}
 
-\usepackage{amsmath}
+This repository contains organized documentation of the concepts, tools, syntax, commands, and practical exercises covered in the Technical Writing Lab course.
 
-\title{Introduction to LaTeX}
-\author{Student Name}
-\date{\today}
 
-\begin{document}
 
-\maketitle
+The purpose of this repository is to represent what I have learn in 22CSP210 Technical Writing 2026 course.
 
-\section{Introduction}
-LaTeX is used to prepare professional documents.
 
-\section{Features}
-LaTeX supports equations, tables, figures, and references.
 
-\end{document}
-```
+##### Topics Covered
 
-## 1.4 Explanation of Important Commands
 
-| Command | Purpose |
-|---|---|
-| `\documentclass` | Defines the type of document |
-| `\usepackage` | Loads additional packages |
-| `\title` | Specifies the document title |
-| `\author` | Specifies the author's name |
-| `\date` | Specifies the document date |
-| `\begin{document}` | Starts the document body |
-| `\end{document}` | Ends the document body |
-| `\maketitle` | Displays the title information |
-| `\section{}` | Creates a section |
 
-## 1.5 Common Document Classes
+1. **LaTeX**: Document preparation, formatting, mathematical equations, tables, figures, and references.
+2. **Beamer**: Creating professional presentations using LaTeX.
+3. **Doxygen**: Generating software documentation from source code.
+4. **Google Docs**: Document creation, formatting, collaboration, and sharing.
+5. **Git and GitHub**: Version control, repository management, branching, merging, and collaboration.
+6. **Practical Examples**: Exercises and projects completed during the course.
 
-- `article` – For articles and short reports.
-- `report` – For longer reports and projects.
-- `book` – For books and large documents.
-- `letter` – For formal letters.
-- `beamer` – For presentations.
 
-## 1.6 Comments in LaTeX
 
-The percentage symbol `%` is used to write comments. LaTeX ignores everything after `%` on that line.
+##### Repository Structure
 
-Example:
 
-```latex
-% This is a comment
-\documentclass{article}
 
-\begin{document}
-Hello, LaTeX!
-\end{document}
-```
+* 01-LaTeX/ – LaTeX syntax, commands, environments, and examples.
+* 02-Beamer/ – Beamer presentation commands and examples.
+* 03-Doxygen/ – Doxygen commands, documentation comments, and examples.
+* 04-Google-Docs/ – Google Docs tools and features.
+* 05-Git-and-GitHub/ – Git commands and GitHub workflows.
+* 06-Practical-Examples/ – Practical exercises and projects.
+* References/ – Supporting course materials and references.
 
-## 1.7 Conclusion
 
-LaTeX provides a structured and reliable way to prepare professional documents. Understanding its basic structure and commands is the first step toward creating advanced documents.
+
+##### Learning Objectives
+
+
+
+* Understand the fundamentals of technical writing.
+* Prepare documents using LaTeX.
+* Create presentations using Beamer.
+* Generate program documentation using Doxygen.
+* Collaborate using Google Docs.
+* Manage projects using Git and GitHub.
+
+
+
+##### Conclusion
+
+
+
+This repository serves as a semester-long learning resource and a record of the practical knowledge gained during the Technical Writing Lab course.
+
