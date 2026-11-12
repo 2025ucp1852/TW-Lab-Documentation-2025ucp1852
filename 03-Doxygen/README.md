@@ -133,7 +133,21 @@ The C++ source files are available in the `Examples` folder.
 
 Generated HTML documentation is available in `docs/html`.
 
-## 10. Requirements
+## 10. Generated HTML Documentation
+
+The following links open the Doxygen-generated documentation webpages for each example.
+
+1. **Example 1 – Basic Functions**
+   - [View HTML Documentation](docs/html/01-basic-functions_8cpp.html)
+   - [View C++ Source Code](Examples/01-basic-functions.cpp)
+
+2. **Example 2 – Structures and Variables**
+   - [View HTML Documentation](docs/html/02-structures-and-variables_8cpp.html)
+   - [View C++ Source Code](Examples/02-structures-and-variables.cpp)
+
+[Open Complete Doxygen Documentation](docs/html/index.html)
+
+## 11. Requirements
 
 - Windows operating system.
 - Doxygen installed and configured in PATH.
@@ -141,6 +155,6 @@ Generated HTML documentation is available in `docs/html`.
 - Text editor such as Notepad or Visual Studio Code.
 - Web browser for viewing generated HTML documentation.
 
-## 11. Conclusion
+## 12. Conclusion
 
 Doxygen simplifies software documentation by generating structured documentation from source-code comments. It improves code readability, maintainability and communication among developers.
