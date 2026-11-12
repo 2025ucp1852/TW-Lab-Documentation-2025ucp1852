@@ -91,7 +91,27 @@ After completing these exercises, students should be able to:
 - Use version control for project management.
 - Share and maintain technical projects through GitHub.
 
-## 7. Conclusion
+## 7. Practical Examples from Each Section
+
+The following links provide direct access to practical examples
+available in the respective documentation folders.
+
+1. **LaTeX Examples**
+   - [Open LaTeX Examples](../01-LaTeX/Examples/)
+
+2. **Beamer Examples**
+   - [Open Beamer Examples](../02-Beamer/Examples/)
+
+3. **Doxygen Examples**
+   - [Open Doxygen Examples](../03-Doxygen/Examples/)
+
+4. **Google Docs Examples**
+   - [Open Google Docs Examples](../04-Google-Docs/Examples/)
+
+5. **Git and GitHub**
+   - [Open Git and GitHub Documentation](../05-Git-and-GitHub/README.md)
+
+## 8. Conclusion
 
 Integrated practical exercises help students combine the concepts learned throughout Technical Writing Lab 2026. They provide experience in document preparation, presentation design, source-code documentation, and version control.
 
