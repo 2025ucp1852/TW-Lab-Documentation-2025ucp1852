@@ -1,4 +1,4 @@
-### Technical Writing – Semester Documentation
+# Technical Writing – Semester Documentation
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-##### About This Repository
+## About This Repository
 
 
 
@@ -18,11 +18,11 @@ This repository contains organized documentation of the concepts, tools, syntax,
 
 
 
-The purpose of this repository is to represent what I have learn 22CSP210 Technical Writing 2026 course.
+The purpose of this repository is to represent what I have learn in 22CSP210 Technical Writing 2026 course.
 
 
 
-##### Topics Covered
+## Topics Covered
 
 
 
@@ -35,7 +35,7 @@ The purpose of this repository is to represent what I have learn 22CSP210 Techni
 
 
 
-##### Repository Structure
+## Repository Structure
 
 
 
@@ -49,7 +49,7 @@ The purpose of this repository is to represent what I have learn 22CSP210 Techni
 
 
 
-##### Learning Objectives
+## Learning Objectives
 
 
 
@@ -62,7 +62,7 @@ The purpose of this repository is to represent what I have learn 22CSP210 Techni
 
 
 
-##### Conclusion
+## Conclusion
 
 
 
