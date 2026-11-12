@@ -1,0 +1,24 @@
+var NAVTREEINDEX0 =
+{
+"01-basic-functions_8cpp.html":[1,0,0,0],
+"01-basic-functions_8cpp.html#a1c22cca17166e4aba78f58dd19f5f77d":[1,0,0,0,2],
+"01-basic-functions_8cpp.html#aa99823a0fc8313c9c32541ce768fb801":[1,0,0,0,0],
+"01-basic-functions_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[1,0,0,0,1],
+"02-structures-and-variables_8cpp.html":[1,0,0,1],
+"02-structures-and-variables_8cpp.html#a03a5bc8181916598c89c1e4a5ba57097":[1,0,0,1,1],
+"02-structures-and-variables_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[1,0,0,1,2],
+"annotated.html":[0,0],
+"classes.html":[0,1],
+"dir_03680f297d755c096b0a1ead13ee12b7.html":[1,0,0],
+"files.html":[1,0],
+"functions.html":[0,2,0],
+"functions_vars.html":[0,2,1],
+"globals.html":[1,1,0],
+"globals_func.html":[1,1,1],
+"index.html":[],
+"pages.html":[],
+"struct_student.html":[0,0,0],
+"struct_student.html#a28d6376f4e93def870b87f759e557fa3":[0,0,0,2],
+"struct_student.html#a3f6770a34042c1c4bfb9e59d29e35d2e":[0,0,0,0],
+"struct_student.html#a671f6b115a158653a0f0bece34ea0667":[0,0,0,1]
+};
