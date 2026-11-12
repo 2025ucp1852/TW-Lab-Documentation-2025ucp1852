@@ -141,6 +141,16 @@ Generated HTML documentation is available in `docs/html`.
 - Text editor such as Notepad or Visual Studio Code.
 - Web browser for viewing generated HTML documentation.
 
-## 11. Conclusion
+## 11. Source Code Examples
+
+The following C++ programs demonstrate how to write Doxygen comments and generate documentation.
+
+1. **Basic Functions**
+   - [View 01-basic-functions.cpp](Examples/01-basic-functions.cpp)
+
+2. **Structures and Variables**
+   - [View 02-structures-and-variables.cpp](Examples/02-structures-and-variables.cpp)
+
+## 12. Conclusion
 
 Doxygen simplifies software documentation by generating structured documentation from source-code comments. It improves code readability, maintainability and communication among developers.
