@@ -1,0 +1,91 @@
+
+\documentclass{beamer}
+
+% Theme and color configuration
+\usetheme{CambridgeUS}
+\usecolortheme{beaver}
+
+\title{Beamer Features}
+\subtitle{Themes, Blocks, Columns and Overlays}
+\author{Vikram Mehra}
+\institute{Technical Writing Lab 2026}
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Themes
+\begin{frame}{Beamer Themes}
+    Beamer provides different themes to customize presentations.
+
+    \begin{itemize}
+        \item Madrid
+        \item CambridgeUS
+        \item Copenhagen
+        \item Berlin
+    \end{itemize}
+\end{frame}
+
+% Blocks
+\begin{frame}{Using Blocks}
+    \begin{block}{Normal Block}
+        This is a normal block used to highlight information.
+    \end{block}
+
+    \begin{alertblock}{Alert Block}
+        This block highlights important information.
+    \end{alertblock}
+
+    \begin{exampleblock}{Example Block}
+        This block is useful for providing examples.
+    \end{exampleblock}
+\end{frame}
+
+% Columns
+\begin{frame}{Using Columns}
+    \begin{columns}
+        \column{0.48\textwidth}
+        \textbf{Advantages}
+        \begin{itemize}
+            \item Professional slides
+            \item Easy formatting
+            \item Mathematical support
+        \end{itemize}
+
+        \column{0.48\textwidth}
+        \textbf{Applications}
+        \begin{itemize}
+            \item Academic lectures
+            \item Project presentations
+            \item Research seminars
+        \end{itemize}
+    \end{columns}
+\end{frame}
+
+% Overlay
+\begin{frame}{Overlays}
+    Points can appear one at a time.
+
+    \begin{itemize}
+        \item<1-> First point
+        \item<2-> Second point
+        \item<3-> Third point
+    \end{itemize}
+\end{frame}
+
+% Conclusion
+\begin{frame}{Conclusion}
+    \begin{block}{Summary}
+        Beamer provides themes, colors, blocks, columns,
+        and overlays to create attractive presentations.
+    \end{block}
+
+    \centering
+    Thank You!
+\end{frame}
+
+\end{document}

@@ -1,0 +1,89 @@
+
+\documentclass{beamer}
+
+\usetheme{Boadilla}
+\usecolortheme{dolphin}
+
+\title{Advanced Beamer Features}
+\subtitle{Equations, Tables and Figures}
+\author{Vikram Mehra}
+\institute{Technical Writing Lab 2026}
+\date{\today}
+
+\begin{document}
+
+% Title Slide
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Mathematical Equations
+\begin{frame}{Mathematical Equations}
+    Beamer supports mathematical expressions.
+
+    \textbf{Quadratic Equation:}
+    \[
+        ax^2 + bx + c = 0
+    \]
+
+    \textbf{Quadratic Formula:}
+    \[
+        x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+    \]
+
+    \textbf{Pythagorean Theorem:}
+    \[
+        a^2 + b^2 = c^2
+    \]
+\end{frame}
+
+% Tables
+\begin{frame}{Creating Tables}
+    A table can be created using the tabular environment.
+
+    \begin{table}
+        \centering
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{Student} & \textbf{Subject} & \textbf{Marks} \\
+            \hline
+            Amit & Mathematics & 85 \\
+            Riya & Physics & 90 \\
+            Rahul & Computer Science & 88 \\
+            \hline
+        \end{tabular}
+        \caption{Student Marks}
+    \end{table}
+\end{frame}
+
+% Figures using Picture Environment
+\begin{frame}{Creating Figures}
+    LaTeX supports simple drawings using the picture environment.
+
+    \begin{center}
+        \setlength{\unitlength}{1mm}
+        \begin{picture}(70,35)
+            \put(5,10){\framebox(20,15){Input}}
+            \put(30,17){\vector(1,0){10}}
+            \put(42,10){\framebox(23,15){Output}}
+        \end{picture}
+    \end{center}
+
+    The picture environment can be used to create
+    simple diagrams and illustrations.
+\end{frame}
+
+% Summary
+\begin{frame}{Summary}
+    \begin{itemize}
+        \item Mathematical equations can be displayed clearly.
+        \item Tables organize information into rows and columns.
+        \item The picture environment creates simple diagrams.
+        \item Beamer combines these features into presentations.
+    \end{itemize}
+
+    \centering
+    \textbf{Thank You!}
+\end{frame}
+
+\end{document}
